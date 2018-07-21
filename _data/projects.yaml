@@ -1,9 +1,9 @@
-- title: AXErunners
+- title:
   url: https://axerunners.com
-  image: https://raw.githubusercontent.com/AXErunners/media/master/axerunners-x.png
+  image: images/axerunners-8b.png
   completed: true
 
-- title: C R P
+- title: 
   url: https://charlesrocket.github.io/photography/
-  image: images/crp.png
+  image: images/crp-8b.png
   completed: true
