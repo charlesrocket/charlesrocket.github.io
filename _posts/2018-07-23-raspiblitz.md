@@ -9,6 +9,7 @@ tags:
   - btc
   - node
 ---
+{% raw %}<img src="/images/rpi-mbp.gif" alt="rpi-mbp-8bit">{% endraw %}
 
 Will update after local tests
 
