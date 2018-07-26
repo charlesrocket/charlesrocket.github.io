@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+bundle exec jekyll build --verbose
+bundle exec htmlproofer ./_site --http-status-ignore "999" --only-4xx --allow-hash-href --empty-alt-ignore --assume-extension ./_site
