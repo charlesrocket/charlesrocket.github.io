@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "BTC Lightning Node on Raspberry Pi"
-image: images/rpi-mbp.jpg
+image: images/rpi-mbp.gif
 categories:
   - hardware
 tags:
