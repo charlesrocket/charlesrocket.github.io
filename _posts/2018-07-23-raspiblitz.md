@@ -9,11 +9,13 @@ tags:
   - btc
   - node
 ---
+# RaspiBlitz
+
 {% raw %}<img src="/images/rpi-mbp.jpg" alt="rpi-mbp-8bit">{% endraw %}
 
-RaspiBlitz (@rootzoll) is the fastest and cheapest way to get your own Lightning Node running on a RaspberryPi with a nice LCD.
+RaspiBlitz (by @rootzoll) is the fastest and cheapest way to get your own Lightning Node running on a RaspberryPi with a nice LCD.
 
-Hardware list (US):
+## Hardware list (US):
 
 * [Raspberry Pi 3](http://a.co/ahl7RIp)
 * [Micro SD-Card 16GB](http://a.co/6R49HZz)
@@ -23,6 +25,6 @@ Hardware list (US):
 * [Case](http://a.co/1774Hwl)
 * [LCD Display](http://a.co/65p2wu6)
 
-🚧 will update after local tests
+Follow [this](https://github.com/rootzoll/raspiblitz/blob/master/README.md#prepare-your-hardware) guide and spin up your node. After initial setup on the testnet (v0.4) you might want to go live. Enter `sudo nano /home/bitcoin/.bitcoin/bitcoin.conf` and comment out `testnet=1`.
 
 [RaspiBlitz on GitHub](https://github.com/rootzoll/raspiblitz).
