@@ -25,6 +25,6 @@ RaspiBlitz (by @rootzoll) is the fastest and cheapest way to get your own Lightn
 * [Case](http://a.co/1774Hwl)
 * [LCD Display](http://a.co/65p2wu6)
 
-Follow [this](https://github.com/rootzoll/raspiblitz/blob/master/README.md#prepare-your-hardware) guide and spin up your node. After initial setup on the testnet (v0.4) you might want to go live. Enter `sudo nano /home/bitcoin/.bitcoin/bitcoin.conf` and comment out `testnet=1`.
+Follow [this](https://github.com/rootzoll/raspiblitz/blob/master/README.md#prepare-your-hardware) guide and spin up your node. After initial setup on the testnet (v0.4) you might want to go live. Enter `sudo nano /home/bitcoin/.bitcoin/bitcoin.conf` and comment out `testnet=1`. Then switch lightning service to `mainnet` with `sudo nano /mnt/hdd/lnd/lnd.conf` and reboot your node with `sudo reboot`. Use `lncli create` to finish mainnet setup.
 
 [RaspiBlitz on GitHub](https://github.com/rootzoll/raspiblitz).
