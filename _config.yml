@@ -59,6 +59,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-mentions
 
 # Exclude list
 include: [_pages]
