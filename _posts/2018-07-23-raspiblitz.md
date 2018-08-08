@@ -27,4 +27,6 @@ RaspiBlitz (by @rootzoll) is the fastest and cheapest way to get your own Lightn
 
 Follow [this](https://github.com/rootzoll/raspiblitz/blob/master/README.md#prepare-your-hardware) guide and spin up your node on the testnet. You can find the mainnet guide [here](https://github.com/Stadicus/guides/blob/master/raspibolt/raspibolt_50_mainnet.md#mainnet).
 
+If you confident in your wifi network - use `sudo raspi-config` to setup wireless connection ([ref](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)).
+
 [RaspiBlitz on GitHub](https://github.com/rootzoll/raspiblitz).
