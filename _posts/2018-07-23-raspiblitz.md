@@ -13,7 +13,7 @@ tags:
 
 {% raw %}<img src="/images/rpi-mbp.jpg" alt="rpi-mbp-8bit">{% endraw %}
 
-RaspiBlitz (by @rootzoll) is the fastest and cheapest way to get your own Lightning Node running on a RaspberryPi with a nice LCD.
+**RaspiBlitz** (by @rootzoll) is the fastest and cheapest way to get your own Lightning Node running on a RaspberryPi with a nice LCD.
 
 ## Hardware list (US):
 
