@@ -7,6 +7,7 @@ categories:
 tags:
   - axe
   - gitian
+  - macos
 ---
 # AXE-GITIAN
 
