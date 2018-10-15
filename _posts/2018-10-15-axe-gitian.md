@@ -11,7 +11,7 @@ tags:
 ---
 # AXE-GITIAN
 
-This guide covers deterministic build process for [AXE](https://github.com/AXErunners/axe) binaries on macOS. [axe-gitian](https://github.com/AXErunners/axe-gitian) is a Vagrant box, provisioned with Ansible and deployed in VirtualBox environment. Gitian affords a way to be assured that AXE binaries are built from the exact source, provided on GitHub.
+This guide covers deterministic build process for [AXE](https://github.com/AXErunners/axe) binaries on macOS. **[axe-gitian](https://github.com/AXErunners/axe-gitian)** is a **Vagrant** box, provisioned with **Ansible** and deployed in **VirtualBox** environment. **Gitian** affords a way to be assured that AXE binaries are built from the exact source, provided on GitHub.
 
 ### Prepare
 #### Vagrant
