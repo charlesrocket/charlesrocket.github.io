@@ -53,7 +53,7 @@ gpg_key_name: 'F16219F4C23F91112E9C734A8DFCBF8E5A4D8019'
 # OPTIONAL set to import your SSH key into the VM. Example: id_rsa, id_ed25519. Assumed to reside in ~/.ssh
 ssh_key_name: ''
 ```
-Start the build with `vagrant up --provision axe-build`. When environment is ready - connect with `vagrant ssh axe-build` and download [Apple SDK](https://github.com/AXErunners/axe-gitian#copying-files) into `gitian-builder/inputs` (`wget` + dropbox).
+Start the build with `vagrant up --provision axe-build`. When environment is ready - connect with `vagrant ssh axe-build` and download [Apple SDK](https://github.com/AXErunners/axe/blob/master/doc/README_osx.md) into `gitian-builder/inputs` (`wget` + dropbox).
 
 Then prepare the container and start the build with:
 ```
