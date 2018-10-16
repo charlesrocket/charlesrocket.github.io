@@ -61,4 +61,4 @@ Then prepare container and start the build with:
 ```
 ### Transfer files
 
-Use `vagrant scp` [plugin](https://github.com/AXErunners/axe-gitian#copying-files).
+Use `vagrant scp` [plugin](https://github.com/AXErunners/axe-gitian#copying-files) to transfer data between the host and the box.
