@@ -39,7 +39,7 @@ Setup Ansible
 git clone https://github.com/AXErunners/axe-gitian
 cd axe-gitian
 ```
-Edit your <code>gitian.yml</code> file:
+Edit your `gitian.yml` file:
 ```
 # URL of repository containing AXE source code.
 axe_git_repo_url: 'https://github.com/AXErunners/axe'
@@ -53,7 +53,7 @@ gpg_key_name: 'F16219F4C23F91112E9C734A8DFCBF8E5A4D8019'
 # OPTIONAL set to import your SSH key into the VM. Example: id_rsa, id_ed25519. Assumed to reside in ~/.ssh
 ssh_key_name: ''
 ```
-Start the build with <code>vagrant up --provision axe-build</code>. When environment is ready - connect with <code>vagrant ssh axe-build</code> and download <a href="https://github.com/AXErunners/axe/blob/master/doc/README_osx.md">Apple SDK</a> into <code>gitian-builder/inputs</code> (<code>wget</code> + dropbox).
+Start the build with `vagrant up --provision axe-build`. When environment is ready - connect with `vagrant ssh axe-build` and download [Apple SDK](https://github.com/AXErunners/axe-gitian#copying-files) into `gitian-builder/inputs` (`wget` + dropbox).
 
 Then prepare container and start the build with:
 ```
