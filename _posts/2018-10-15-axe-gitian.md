@@ -53,7 +53,7 @@ gpg_key_name: 'F16219F4C23F91112E9C734A8DFCBF8E5A4D8019'
 # OPTIONAL set to import your SSH key into the VM. Example: id_rsa, id_ed25519. Assumed to reside in ~/.ssh
 ssh_key_name: ''
 ```
-Start the build with `vagrant up --provision axe-build`. When environment is ready - download [Apple SDK](https://github.com/AXErunners/axe/blob/master/doc/README_osx.md) and create the tar file (MacOSX10.11.sdk.tar.gz). Place MacOSX10.11.sdk.tar.gz into axe-gitian folder and copy it to `gitian-builder/inputs` using plugin:
+Start the build with `vagrant up --provision axe-build`. When environment is ready - download [Apple SDK](https://github.com/AXErunners/axe/blob/master/doc/README_osx.md) and create the tar file (MacOSX10.11.sdk.tar.gz). Place MacOSX10.11.sdk.tar.gz into axe-gitian folder and copy with plugin:
 ```
 vagrant plugin install vagrant-scp
 vagrant scp MacOSX10.11.sdk.tar.gz MacOSX10.11.sdk.tar.gz
