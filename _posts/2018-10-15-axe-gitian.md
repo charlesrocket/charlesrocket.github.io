@@ -35,7 +35,7 @@ Setup Ansible
 `sudo pip install ansible`
 
 #### Apple SDK
-Download [Xcode 7.3.1 dmg](https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_7.3.1/Xcode_7.3.1.dmg) and mount it. Pack a tarball by executing following in Terminal:
+Download [Xcode 7.3.1 dmg](https://developer.apple.com/devcenter/download.action?path=/Developer_Tools/Xcode_7.3.1/Xcode_7.3.1.dmg) and mount it. Then pack a tarball by executing following in Terminal:
 ```
 tar -C /Volumes/Xcode/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/ -czf MacOSX10.11.sdk.tar.gz MacOSX10.11.sdk
 ```
