@@ -73,4 +73,4 @@ Prepare the container and start building with:
 ```
 ### Transfer files
 
-Commit assertions from the box using `git` and/or use `vagrant scp` [plugin](https://github.com/AXErunners/axe-gitian#copying-files) to transfer data between the box and the host.
+Commit assertions from the box using `git` or use `vagrant scp` [plugin](https://github.com/AXErunners/axe-gitian#copying-files) to transfer data between the box and the host.
