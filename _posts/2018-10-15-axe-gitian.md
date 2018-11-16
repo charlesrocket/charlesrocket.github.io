@@ -16,11 +16,16 @@ tags:
 This guide covers deterministic build process for [AXE](https://github.com/AXErunners/axe) binaries on macOS. **[axe-gitian](https://github.com/AXErunners/axe-gitian)** is a **Vagrant** box, provisioned with **Ansible** and deployed in **VirtualBox** environment. **Gitian** affords a way to be assured that AXE binaries are built from the exact source, provided on GitHub.
 
 ### Prepare
+Install [Git](https://git-scm.com/) and set it up with your GitHub account.
+
+#### GnuPG
+Download and install the lates version of GPG Suite from <a href="https://gpgtools.org">here</a>.
+
 #### Vagrant
-Download and install the latest version of Vagrant from their <a href="https://www.vagrantup.com/downloads.html">website</a>.
+Download and install the latest version of Vagrant from <a href="https://www.vagrantup.com/downloads.html">here</a>.
 
 #### VirtualBoX
-Download and install the latest version of VirtualBox from their <a href="https://www.virtualbox.org/wiki/Downloads">website</a>.
+Download and install the latest version of VirtualBox from <a href="https://www.virtualbox.org/wiki/Downloads">here</a>.
 
 #### Ansible
 Install prerequisites
