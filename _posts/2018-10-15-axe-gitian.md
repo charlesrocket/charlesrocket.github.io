@@ -19,7 +19,7 @@ This guide covers deterministic build process for [AXE](https://github.com/AXEru
 Install [Git](https://git-scm.com/) and set it up with your GitHub account.
 
 #### GnuPG
-Download and install the lates version of GPG Suite from <a href="https://gpgtools.org">here</a>.
+Download and install the latest version of GPG Suite from <a href="https://gpgtools.org">here</a>.
 
 #### Vagrant
 Download and install the latest version of Vagrant from <a href="https://www.vagrantup.com/downloads.html">here</a>.
