@@ -13,8 +13,6 @@ tags:
 
 {% raw %}<img src="/images/axerunner-v0127.png" alt="axerunner screenshot">{% endraw %}
 
-# Binary deployment
-
 > If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield.
 
 To deploy AXE masternode on VPS you need to create private key in your local wallet that would be a control wallet for your masternode park. Open AXE Core and enter the following in the `Debug Console`:
