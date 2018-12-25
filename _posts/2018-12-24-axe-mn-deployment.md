@@ -39,7 +39,7 @@ masternode outputs
 
 Open Masternode configuration file and replace the example with your node's IP, private key and tx output from previous command.
 
-#### Prepare
+## Prepare
 Now login on your VPS with and create new user if its a fresh VPS instance (root login).
 
 ```
@@ -49,7 +49,7 @@ su axerunner
 cd ~
 ```
 
-Tune security:
+### Tune security:
 
 ```
 sudo apt-get update && sudo apt-get upgrade
@@ -63,21 +63,21 @@ sudo ufw disable
 sudo ufw enable
 ```
 
-Install dependencies:
+### Install dependencies:
 
 ```
 sudo apt-get install python virtualenv git unzip pv
 ```
 
-#### Download
+## Download
 ```
 cd ~ && git clone https://github.com/axerunners/axerunner
 ```
 
-#### Install
+## Install
 ```
 axerunner/axerunner install
 ```
 
-##### Post
-Follow the instructions in `axerunner` - install sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`.
+## Post
+Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`.
