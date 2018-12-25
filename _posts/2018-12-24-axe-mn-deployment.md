@@ -15,9 +15,9 @@ tags:
 
 > If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield.
 
-Successful masternode deployment would require Ubuntu 18.04 server with 2GB of ram and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
+Successful masternode deployment would require Ubuntu 18.04 server with 2GB of RAM and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
 
-To deploy AXE masternode you need to create private key in your local wallet that would be a control wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
+To deploy AXE masternode you need to create a private key in your local wallet that would be a control wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
 
 ```
 masternode genkey
