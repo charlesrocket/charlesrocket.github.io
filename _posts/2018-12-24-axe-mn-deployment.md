@@ -9,7 +9,7 @@ tags:
   - mastermnode
   - vps
 ---
-# operator's how-to
+# AXE masternode deployment
 
 {% raw %}<img src="/images/axerunner-v0127.png" alt="axerunner-screenshot">{% endraw %}
 
