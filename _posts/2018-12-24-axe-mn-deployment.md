@@ -6,7 +6,7 @@ categories:
   - software
 tags:
   - axe
-  - mastermnode
+  - masternode
   - vps
 ---
 # AXE masternode deployment
