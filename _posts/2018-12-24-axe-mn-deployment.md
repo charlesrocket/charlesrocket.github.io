@@ -15,7 +15,9 @@ tags:
 
 > If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield.
 
-To deploy AXE masternode on VPS you need to create private key in your local wallet that would be a control wallet for your masternode park. Open AXE Core and enter the following in the `Debug Console`:
+Successful masternode deployment would require Ubuntu 18.04 server with 2GB of ram and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
+
+To deploy AXE masternode you need to create private key in your local wallet that would be a control wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
 
 ```
 masternode genkey
