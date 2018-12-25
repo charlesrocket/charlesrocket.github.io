@@ -23,7 +23,7 @@ To deploy AXE masternode you need to create a private key in your local wallet t
 masternode genkey
 ```
 
-This is your private key that you will place into the `axe.conf` on your masternode.
+This is your masternode private key that you will place into the `axe.conf` on your masternode.
 
 Now generate new address `mn1` and send 1000 AXE collateral.
 
