@@ -13,9 +13,9 @@ tags:
 
 {% raw %}<img src="/images/axerunner-v0127.png" alt="axerunner-screenshot">{% endraw %}
 
-> If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield.
+> If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield
 
-Successful masternode deployment would require Ubuntu 18.04 server with 2GB of RAM and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
+Successful masternode deployment would require GNU/Linux server (Ubuntu 18.04) with 2GB of RAM and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
 
 To deploy AXE masternode you need to create a private key in your local wallet that would be a control wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
 
@@ -40,7 +40,7 @@ masternode outputs
 Open Masternode configuration file and replace the example with your node's IP, private key and tx output from previous command.
 
 ## Prepare
-Now login on your VPS with and create new user if its a fresh VPS instance (root login).
+Now login on your VPS with and create new user if it's a fresh VPS instance (root login).
 
 ```
 adduser axerunner
@@ -74,10 +74,10 @@ sudo apt-get install python virtualenv git unzip pv
 cd ~ && git clone https://github.com/axerunners/axerunner
 ```
 
-## Install
+## Install AXE core
 ```
 axerunner/axerunner install
 ```
 
 ## Post
-Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`.
+Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`. Then load the configuration with `axerunner/axerunner restart now` and start the masternode from your control wallet.
