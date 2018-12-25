@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AXE masternode deployment"
+title: "AXE operator's guide"
 image: images/axerunner.gif
 categories:
   - software
