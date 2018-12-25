@@ -17,7 +17,7 @@ tags:
 
 Successful masternode deployment would require GNU/Linux server (Ubuntu 18.04) with 2GB of RAM and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
 
-To deploy AXE masternode you need to create a private key in your local wallet that would be a control wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
+To deploy AXE masternode you need to create a private key in your local wallet that would be the *control* wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
 
 ```
 masternode genkey
@@ -80,4 +80,4 @@ axerunner/axerunner install
 ```
 
 ## Post
-Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`. Then load the configuration with `axerunner/axerunner restart now` and start the masternode from your control wallet.
+Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`. Then load the configuration with `axerunner/axerunner restart now` and start the masternode from your *control* wallet.
