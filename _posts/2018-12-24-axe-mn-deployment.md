@@ -82,4 +82,4 @@ axerunner/axerunner install
 ## Post
 Follow the instructions in `axerunner` - install Sentinel with `axerunner/axerunner install sentinel` and insert masternode private key in the `axe.conf`. Then load the configuration with `axerunner/axerunner restart now` and start the masternode from your **control** wallet.
 
-Full list of commands [here](https://github.com/charlesrocket/axerunner).
+[List of commands](https://github.com/charlesrocket/axerunner).
