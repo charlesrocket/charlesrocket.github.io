@@ -11,7 +11,7 @@ tags:
 ---
 # AXE masternode deployment
 
-{% raw %}<img src="/images/axerunner-v0127.png" alt="axerunner screenshot">{% endraw %}
+{% raw %}<img src="/images/axerunner-v0127.png" alt="axerunner-screenshot">{% endraw %}
 
 > If you are running a masternode you need to be fairly familiar with network administration and securing your host. - Evan Duffield.
 
