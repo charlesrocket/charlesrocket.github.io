@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/charlesrocket
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://charlesrocket.github.io
+  * I am charlesrocket (https://keybase.io/charlesrocket) on keybase.
+  * I have a public key ASCzfft_LCXMUTerQU0gfL3DApju_qtEEx9IXTxLtVBKFQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120b37dfb7f2c25cc5137ab414d207cbdc30298eefeab44131f485d3c4bb5504a150a",
+      "host": "keybase.io",
+      "kid": "0120b37dfb7f2c25cc5137ab414d207cbdc30298eefeab44131f485d3c4bb5504a150a",
+      "uid": "321ea6e45e5cb8ca1ee0ae3969e35719",
+      "username": "charlesrocket"
+    },
+    "merkle_root": {
+      "ctime": 1548296405,
+      "hash": "250e5a4d027eed08e031a25c52b94b2010b8d2c05324fab83a13357e6c6415e680ab3845f5d0b610db232def2235e05fc9aa457c4565bf9d493157439f6afb49",
+      "hash_meta": "05d5a97584835f399b66ab40cf107703db91400cea5d95a4460db7a493fa0a3b",
+      "seqno": 4596468
+    },
+    "service": {
+      "entropy": "0R2G8lmv6n1RzvKAzPR+bIOu",
+      "hostname": "charlesrocket.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "2.13.2"
+  },
+  "ctime": 1548296448,
+  "expire_in": 504576000,
+  "prev": "d176d7dda8d9d3a212f8d93b53eeb78d59de96b26c49511ad6e94c225692c572",
+  "seqno": 11,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgs337fywlzFE3q0FNIHy9wwKY7v6rRBMfSF08S7VQShUKp3BheWxvYWTESpcCC8Qg0XbX3ajZ06IS+Nk7U+63jVnelrJsSVEa1ulMIlaSxXLEIPZO/N1r5Tn1EE44Dei49bkh5TfIRXgKiHAfwtD9AQbTAgHCo3NpZ8RAFdc38j/WWTTUnlZMR0LRThju9OHMTQIR+oazXjAFLl+oj5Had33G2mgJfJGdOJrXQIQZPXflaBdEpbNqAJfsB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBBUxUgitVJUnhAsgaAdU7yOw1t9OiMOGam40jP7mjdho3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/charlesrocket
+
+==================================================================
