@@ -17,6 +17,8 @@ tags:
 
 Successful masternode deployment would require GNU/Linux server (Ubuntu 18.04) with 2GB of RAM and static IPv4 address ([Vultr](https://www.vultr.com/?ref=7231821)).  
 
+> [DIP3 Procedure](https://docs.axecore.net/en/master/masternodes/dip3-upgrade.html#masternode-registration-from-axe-core)
+
 To deploy AXE masternode you need to create a private key in your local wallet that would be the **control** wallet for your masternode park. Download [AXE binary](https://github.com/AXErunners/axe/releases/latest), install the wallet and let it sync with the network. When the wallet is ready - open the `Debug Console` and enter the following:
 
 ```
