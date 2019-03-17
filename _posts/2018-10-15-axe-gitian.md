@@ -24,7 +24,7 @@ Download and install the latest version of GPG Suite from <a href="https://gpgto
 #### Vagrant
 Download and install the latest version of Vagrant from <a href="https://www.vagrantup.com/downloads.html">here</a>.
 
-#### VirtualBoX
+#### VirtualBox
 Download and install the latest version of VirtualBox from <a href="https://www.virtualbox.org/wiki/Downloads">here</a>.
 
 #### Ansible
