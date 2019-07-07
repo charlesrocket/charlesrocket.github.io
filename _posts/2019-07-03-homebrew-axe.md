@@ -40,4 +40,4 @@ brew cask install axe-electrum
 
 ### Maintenance
 
-Pull fresh versions with `brew update` or `brew cask upgrade`. To remove desired application use `uninstall` against the application, like `brew cask uninstall axe-electrum`.
+Pull fresh versions with `brew update` or `brew cask upgrade`. To remove desired application - use `uninstall` against it: `brew cask uninstall axe-electrum`.
