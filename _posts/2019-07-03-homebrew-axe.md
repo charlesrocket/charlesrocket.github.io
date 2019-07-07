@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Install AXE on macOS with Homebrew"
+title: "Homebrew + AXE"
 image: images/homebrew.gif
 categories:
   - software
