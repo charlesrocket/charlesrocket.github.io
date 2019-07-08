@@ -12,6 +12,8 @@ tags:
 ---
 # AXE Homebrew Casks
 
+{% raw %}<img src="/images/homebrew.jpg" alt="homebrew-screenshot">{% endraw %}
+
 [Homebrew](https://brew.sh) is "the missing package manager for macOS". It provides you with a _one-liner_ solution to compile/install/maintain your software. This post will be touching [Casks](https://github.com/Homebrew/homebrew-cask) - part of **Homebrew** mechanics.
 
 ## Install Brew
