@@ -58,7 +58,6 @@ keybase:           charlesrocket
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-gist
   - jekyll-mentions
 
 jekyll-mentions:
