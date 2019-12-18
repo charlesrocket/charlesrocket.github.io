@@ -1,4 +1,4 @@
 before_install:
-    - gem install bundler
+    - gem update bundler
 language: ruby
 script: ./cibuild
