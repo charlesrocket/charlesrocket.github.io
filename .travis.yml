@@ -1,5 +1,3 @@
-before_install:
-    - gem update --system
 install:
     - gem install bundler
 language: ruby
