@@ -4,3 +4,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem "jekyll-mentions"
 gem "html-proofer"
+gem "webrick"
