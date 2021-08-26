@@ -19,7 +19,6 @@ tags:
 
 * [Raspberry Pi 3](http://a.co/ahl7RIp)
 * [Micro SD-Card 16GB](http://a.co/6R49HZz)
-* [Card Reader](http://a.co/6e03D7Z)
 * [Power](http://a.co/ciFRcYg)
 * [Hard Drive 1TB](http://a.co/eUgVfLd)
 * [Case](http://a.co/1774Hwl)
