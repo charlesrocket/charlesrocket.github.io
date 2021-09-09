@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
   <html lang="en">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta http-equiv="Content-Security-Policy" content="script-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none'">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   {% if page.title %}
   <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
