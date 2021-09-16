@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "BTC Lightning Node on Raspberry Pi"
+title: "RaspiBlitz"
 image: images/rpi-mbp.gif
 categories:
   - hardware
@@ -9,7 +9,7 @@ tags:
   - btc
   - node
 ---
-# RaspiBlitz
+# BTC Lightning Node on Raspberry Pi
 
 {% raw %}<img src="/images/rpi-mbp.jpg" alt="rpi-mbp-8bit">{% endraw %}
 
