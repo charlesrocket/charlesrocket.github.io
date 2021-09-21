@@ -25,6 +25,11 @@ sass:
   sass_dir:         assets/_sass
   style:            compressed
 
+webrick:
+  headers:
+    Content-Security-Policy: script-src 'self'; object-src 'none'; frame-src 'none'; base-uri 'none';
+    Set-Cookie: promo_shown=1; SameSite=Lax;
+
 # Google Analytics
 #google-analytics: UA-XXXXX-Y
 
