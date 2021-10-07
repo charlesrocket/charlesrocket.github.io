@@ -8,7 +8,7 @@ tags:
   - crystal
   - mtg
 ---
-# MtG deck legallity checker
+# MtG deck legality checker
 
 {% raw %}<img src="/images/frightcrawler.png" alt="Frightcrawler">{% endraw %}
 
