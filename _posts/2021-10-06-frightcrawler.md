@@ -30,3 +30,5 @@ frightcrawler -g commander -f /Users/chuck/Documents/git/helvault/oct5-b-mono.cs
 ```
 
 [![asciicast](https://asciinema.org/a/438787.svg)](https://asciinema.org/a/438787)
+
+[Download](https://github.com/charlesrocket/frightcrawler/releases/latest)
