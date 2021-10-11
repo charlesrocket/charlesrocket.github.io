@@ -20,7 +20,6 @@ Usage: frightcrawler -g modern -f PATH/TO/FILE
     -f CSV_FILE                      Path to CSV file
     -i SCRYFALL_ID                   Get card info
     -h, --help                       Print documentation
-    -v, --version                    Version
 Supported CSV layouts: Helvault, Helvault Pro, AetherHub.
 Supported formats: brawl, commander, duel, future, gladiator, historic, legacy,
 modern, oldschool, pauper, penny, pioneer, premodern, standard, vintage.
