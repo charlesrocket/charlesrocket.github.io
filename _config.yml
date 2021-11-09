@@ -12,15 +12,19 @@ background:
   default-post: images/unsplash-gallery-image-10.jpg # this image will be shown when post's front matter doesn't specify any image
 
 # Jekyll
-permalink:          /:title/
+permalink:          /:categories/:title
+lsi:                false
+safe:               true
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+  auto_ids:           true
+  footnote_nr:        1
+  entity_output:      as_char
+  toc_levels:         1..6
+  math_engine:        mathjax
+  enable_coderay:     false
+  syntax_highlighter: rouge
 sass:
   sass_dir:         assets/_sass
   style:            compressed
