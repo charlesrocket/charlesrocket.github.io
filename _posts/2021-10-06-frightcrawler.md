@@ -3,7 +3,7 @@ layout: post
 title: "Frightcrawler"
 image: images/frightcrawler.gif
 categories:
-  - hardware
+  - software
 tags:
   - crystal
   - mtg
