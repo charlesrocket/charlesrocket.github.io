@@ -1,3 +1,16 @@
 {
-  "theme_color": "#2C2D32"
+  "name": "K O",
+  "short_name": "K O",
+  "scope": "/",
+  "start_url": "https://charlesrocket.github.io/",
+  "theme_color": "#2C2D32",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
 }
