@@ -2,9 +2,9 @@
   "name": "K O",
   "short_name": "K O",
   "scope": "/",
-  "id": "/index.html",
+  "id": "../index.html",
   "display": "standalone",
-  "start_url": "/index.html",
+  "start_url": "../index.html",
   "background_color": "#2C2D32",
   "theme_color": "#2C2D32",
   "icons": [
