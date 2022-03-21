@@ -3,6 +3,7 @@
   "short_name": "K O",
   "scope": "/",
   "start_url": "/index.html",
+  "background_color": "#2C2D32",
   "theme_color": "#2C2D32",
   "icons": [
     {
