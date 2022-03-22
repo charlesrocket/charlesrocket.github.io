@@ -7,7 +7,6 @@ categories:
 tags:
   - rpi
   - btc
-  - node
 ---
 # BTC Lightning Node on Raspberry Pi
 
