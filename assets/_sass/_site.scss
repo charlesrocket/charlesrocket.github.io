@@ -519,15 +519,6 @@ canvas {
   margin-bottom: 50px;
 }
 
-.share-buttons {
-  position: absolute;
-  top: 32px;
-  left: 40px;
-  > .btn {
-    margin-bottom: 0;
-  }
-}
-
 // Media queries
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
@@ -546,9 +537,6 @@ canvas {
   }
   .block-right {
     overflow-y: inherit;
-  }
-  .share-buttons span {
-    display: none;
   }
 }
 
