@@ -16,6 +16,6 @@ tags:
 
 Use [this](https://github.com/rootzoll/raspiblitz/blob/master/README.md#hardware-needed) guide to build and spin up your node.
 
-If you confident in your wifi network - use `sudo raspi-config` to setup wireless connection ([ref](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)).
+If you are confident in your wifi network - use `sudo raspi-config` to setup wireless connection ([ref](https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md)).
 
 [RaspiBlitz on GitHub](https://github.com/rootzoll/raspiblitz).
