@@ -1,8 +1,11 @@
 name: Deploy
 
 on:
-  push:
-    branches: ["master"]
+  workflow_run:
+    workflows: ["jekyll tests"]
+    branches: [master]
+    types:
+      - completed
 
   workflow_dispatch:
 
