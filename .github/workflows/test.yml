@@ -19,3 +19,11 @@ jobs:
         bundle install
         bundle exec jekyll build --trace --verbose
         bundle exec htmlproofer ./_site --ignore-status-codes "999, 400" --swap-urls "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|charlesrocket\.github.io):" --only-4xx --ignore-urls "/photography" --allow-hash-href --ignore-empty-alt
+
+  deploy:
+    needs: test
+    name: Deploy
+    permissions:
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml
