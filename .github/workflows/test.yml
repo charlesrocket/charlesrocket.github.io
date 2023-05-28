@@ -1,24 +1,30 @@
+---
+
 name: Test
 
-on: [push, pull_request]
+"on": [push, pull_request]
 
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Prepare
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 3.2
-        bundler-cache: true
-    - name: Run tests
-      run: |
-        sudo apt-get -yqq install libpq-dev
-        gem install bundler
-        bundle install
-        bundle exec jekyll build --trace --verbose
-        bundle exec htmlproofer ./_site --ignore-status-codes "999, 400" --swap-urls "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|charlesrocket\.github.io):" --only-4xx --ignore-urls "/photography" --allow-hash-href --ignore-empty-alt
+      - uses: actions/checkout@v3
+      - name: Prepare
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+          bundler-cache: true
+
+      - name: Run tests
+        run: |
+          sudo apt-get -yqq install libpq-dev
+          gem install bundler
+          bundle install
+          bundle exec jekyll build --trace --verbose
+          bundle exec htmlproofer ./_site --ignore-status-codes "999, 400" \
+            --swap-urls \
+            "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|charlesrocket\.github.io):" \
+            --only-4xx --ignore-urls "/photography" --allow-hash-href --ignore-empty-alt
 
   deploy:
     needs: test
