@@ -30,7 +30,7 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     forwardable-extended (2.6.0)
-    google-protobuf (3.23.3)
+    google-protobuf (3.23.4)
     hashery (2.1.2)
     html-pipeline (2.14.3)
       activesupport (>= 2)
@@ -86,7 +86,7 @@ GEM
     mercenary (0.4.0)
     mini_portile2 (2.8.2)
     minitest (5.18.1)
-    nokogiri (1.15.2)
+    nokogiri (1.15.3)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     pathutil (0.16.2)
@@ -97,7 +97,7 @@ GEM
       hashery (~> 2.0)
       ruby-rc4
       ttfunk
-    public_suffix (5.0.1)
+    public_suffix (5.0.3)
     racc (1.7.1)
     rainbow (3.1.1)
     rake (13.0.6)
