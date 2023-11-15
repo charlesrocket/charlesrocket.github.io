@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Frightcrawler"
-image: images/frightcrawler.gif
+image: assets/images/frightcrawler.gif
 categories:
   - software
 tags:
@@ -10,7 +10,7 @@ tags:
 ---
 # MtG deck legality checker
 
-{% raw %}<img src="/images/frightcrawler.png" alt="Frightcrawler">{% endraw %}
+{% raw %}<img src="/assets/images/frightcrawler.png" alt="Frightcrawler">{% endraw %}
 
 [Frightcrawler](https://github.com/charlesrocket/frightcrawler) is a small tool I wrote to prepare for [MtG](https://magic.wizards.com/) tournaments. It fully supports [Helvault](https://apps.apple.com/us/app/helvault-mtg-card-scanner/id1466963201) and [AetherHub](https://aetherhub.com) (just in case) files. To validate your deck - scan the cards with `Helvault` and load the CSV file into `Frightcrawler`:
 
