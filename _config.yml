@@ -4,6 +4,7 @@ description: x
 url: https://charlesrocket.github.io
 logo: fireball.gif
 locale: en_US
+giscus_repo_id: MDEwOlJlcG9zaXRvcnkxNDE1MDQ2MzE=
 
 # Left Block Images
 background:
