@@ -3,7 +3,7 @@
   <html lang="en">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
   <meta name="theme-color" content="#2C2D32"/>
-  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.json">
   {% if page.title %}
   <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
@@ -33,7 +33,7 @@
   {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
   <meta property="og:site_name" content="{{ site.title }}">
-  <meta property="og:image" content="{{ site.url }}/images/{{ site.logo }}">
+  <meta property="og:image" content="{{ site.url }}/assets/images/{{ site.logo }}">
   {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
   <link rel="canonical" href="{{ canonical }}">
   <!-- Handheld -->
@@ -41,8 +41,8 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
   <!-- Favicons -->
-  <link rel="shortcut icon" type="image/png" href="{{ site.url }}/images/favicon.png" />
-  <link rel="shortcut icon" href="{{ site.url }}/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="{{ site.url }}/assets/images/favicon.png" />
+  <link rel="shortcut icon" href="{{ site.url }}/assets/images/favicon.ico" />
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="{{ site.url }}/assets/css/main.css">
   <!-- Left Block Image for Posts -->
