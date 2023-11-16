@@ -218,11 +218,13 @@ canvas {
 .main-info {
   color: $white;
   h1 {
+    font-family: $retro-font;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   h2 {
+    font-family: $retro-font;
     font-size: 21px;
     margin: 10px 0;
     padding-top: 10px;
