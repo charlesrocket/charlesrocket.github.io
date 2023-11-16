@@ -471,7 +471,7 @@
     font 14s step-end infinite, movement 10s step-end infinite;
 }
 
-.glitch-h1::after {
+.glitch-h2::after {
   animation: paths 9s step-end infinite, opacity 9s step-end infinite,
     font 13s step-end infinite, movement 8s step-end infinite;
 }
