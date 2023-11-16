@@ -452,18 +452,32 @@ a {
   }
 }
 
-.glitch span {
+.glitch-h1 span {
   animation: paths 5s step-end infinite;
 }
 
-.glitch::before {
+.glitch-h1::before {
   animation: paths 5s step-end infinite, opacity 5s step-end infinite,
     font 8s step-end infinite, movement 10s step-end infinite;
 }
 
-.glitch::after {
+.glitch-h1::after {
   animation: paths 5s step-end infinite, opacity 5s step-end infinite,
     font 7s step-end infinite, movement 8s step-end infinite;
+}
+
+.glitch-h2 span {
+  animation: paths 9s step-end infinite;
+}
+
+.glitch-h2::before {
+  animation: paths 9s step-end infinite, opacity 9s step-end infinite,
+    font 14s step-end infinite, movement 10s step-end infinite;
+}
+
+.glitch-h1::after {
+  animation: paths 9s step-end infinite, opacity 9s step-end infinite,
+    font 13s step-end infinite, movement 8s step-end infinite;
 }
 
 .hero-container {
