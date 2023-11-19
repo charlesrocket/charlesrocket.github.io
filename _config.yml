@@ -59,6 +59,7 @@ flickr:            charlesrocket
 
 # Gems
 plugins:
+  - jekyll-content-security-policy-generator
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-mentions
