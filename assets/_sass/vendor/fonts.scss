@@ -4,6 +4,7 @@
   src: url('../webfonts/weblysleekuil.eot?#iefix') format('embedded-opentype'), url('../webfonts/weblysleekuil.woff2') format('woff2'), url('../webfonts/weblysleekuil.woff') format('woff'), url('../webfonts/weblysleekuil.ttf') format('truetype'), url('../webfonts/weblysleekuil.svg#weblysleek_uilight') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
   src: url('../webfonts/liberation-mono-webfont.eot?#iefix') format('embedded-opentype'), url('../webfonts/liberation-mono-webfont.woff') format('woff'), url('../webfonts/liberation-mono-webfont.ttf') format('truetype'), url('../webfonts/liberation-mono-webfont.svg#LiberationMonoRegular') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
