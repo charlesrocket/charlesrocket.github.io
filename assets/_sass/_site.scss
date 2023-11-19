@@ -152,15 +152,16 @@ canvas {
     line-height: 30px;
     margin: 10px 0;
     padding-top: 25px;
+
   }
   ul {
     font-size: 1em;
-    margin-top: 30px;
+    margin-top: 20px;
     overflow: hidden;
     li {
       display: inline-block;
-      background: #585b63;
       margin-right: 10px;
+      margin-top: 10px;
       vertical-align: middle;
       -webkit-transform: translateZ(0);
       transform: translateZ(0);
@@ -198,9 +199,6 @@ canvas {
           -webkit-transform: scaleY(1);
           transform: scaleY(1);
         }
-      }
-      &:nth-child(odd) {
-        background: $overlay-color;
       }
       &:last-child {
         margin-right: 0;
