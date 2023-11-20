@@ -30,31 +30,20 @@ sass:
   sass_dir:         assets/_sass
   style:            compressed
 
-# Social Links
 #email:
-#google.plus:       username
+mastodon:          charlesrocket
 twitter:           charlesrocket
-#facebook:          username
+facebook:          charlesrocket
 github:            charlesrocket
 stackoverflow:     9899362/charlie137
 linkedin:          charlesrocket
-#xing:              username
 instagram:         charlesrocket
-#lastfm:            charlesrocket
-#tumblr:            username
-#pinterest:         username
+lastfm:            charlesrocket
 reddit:            charlesrocket
-#foursquare:        username
-#steam:             username
-#dribbble:          username
-#youtube:           username
-#soundcloud:        username
-#weibo:             username
 flickr:            charlesrocket
-#codepen:           username
-#keybase:           charlesrocket
-#xmpp:              username@server.com
-#hackernews:        charlesrocket
+keybase:           charlesrocket
+#xmpp:              charlie137@jabber.calyxinstitute.org
+hackernews:        charlesrocket
 #behance:           charlesrocket
 
 # Gems

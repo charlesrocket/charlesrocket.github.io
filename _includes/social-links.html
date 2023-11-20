@@ -1,5 +1,6 @@
 <ul>
   {% if site.email %}<li><a class="social-btn" href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope"></i></a></li>{% endif %}
+  {% if site.mastodon %}<li><a class="social-btn" href="https://defcon.social/@{{ site.mastodon }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-brands fa-mastodon"></i></a></li>{% endif %}
   {% if site.twitter %}<li><a class="social-btn" href="https://twitter.com/{{ site.twitter }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-twitter"></i></a></li>{% endif %}
   {% if site.facebook %}<li><a class="social-btn" href="https://facebook.com/{{ site.facebook }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-facebook"></i></a></li>{% endif %}
   {% if site.google.plus %}<li><a class="social-btn" href="https://plus.google.com/+{{ site.google.plus }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-google-plus"></i></a></li>{% endif %}
@@ -10,7 +11,7 @@
   {% if site.stackoverflow %}<li><a class="social-btn" href="https://stackoverflow.com/users/{{ site.stackoverflow }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-stack-overflow"></i></a></li>{% endif %}
   {% if site.codepen %}<li><a class="social-btn" href="https://codepen.io/{{ site.codepen }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-codepen"></i></a></li>{% endif %}
   {% if site.keybase %}<li><a class="social-btn" href="https://keybase.io/{{ site.keybase }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-key"></i></a></li>{% endif %}
-  {% if site.lastfm %}<li><a class="social-btn" href="https://lastfm.com/user/{{ site.lastfm }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-music"></i></a></li>{% endif %}
+  {% if site.lastfm %}<li><a class="social-btn" href="https://last.fm/user/{{ site.lastfm }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-lastfm"></i></a></li>{% endif %}
   {% if site.dribbble %}<li><a class="social-btn" href="https://dribbble.com/{{ site.dribbble }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-dribbble"></i></a></li>{% endif %}
   {% if site.pinterest %}<li><a class="social-btn" href="https://www.pinterest.com/{{ site.pinterest }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-pinterest"></i></a></li>{% endif %}
   {% if site.foursquare %}<li><a class="social-btn" href="https://foursquare.com/{{ site.foursquare }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-foursquare"></i></a></li>{% endif %}
