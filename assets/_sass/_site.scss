@@ -545,11 +545,6 @@ canvas {
 }
 
 @media screen and (max-width: 640px) {
-  .main-info {
-    img {
-      max-width: 52px;
-    }
-  }
   .posts-list {
     margin-top: 80px;
     > li {
