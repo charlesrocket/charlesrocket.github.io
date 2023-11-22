@@ -11,7 +11,7 @@ tags:
 ---
 # BTC Lightning Node on Raspberry Pi
 
-{% raw %}<img src="/assets/images/rpi-mbp.jpg" alt="rpi-mbp-8bit">{% endraw %}
+![RPi MBP](/assets/images/rpi-mbp.jpg)
 
 **RaspiBlitz** (by @rootzoll) is the fastest and cheapest way to get your own Lightning Node running on a RaspberryPi with a nice LCD.
 
