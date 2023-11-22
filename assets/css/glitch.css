@@ -471,10 +471,6 @@
     font 13s step-end infinite, movement 8s step-end infinite;
 }
 
-.hero-container {
-  text-align: center;
-}
-
 .environment {
   position: absolute;
   top: 0;
