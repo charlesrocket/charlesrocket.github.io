@@ -220,13 +220,14 @@ canvas {
   color: $white;
   h1 {
     font-family: $retro-caps-font;
+    font-size: 50px;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 1px;
   }
   h2 {
     font-family: $retro-caps-font;
-    font-size: 21px;
+    font-size: 32px;
     margin: 10px 0;
     padding-top: 10px;
     &:after {
@@ -291,7 +292,7 @@ canvas {
 }
 
 .section-title {
-  font-size: 100px;
+  font-family: $retro-font;
   position: absolute;
   bottom: 50px;
   left: 50px;
@@ -383,7 +384,7 @@ canvas {
   p {
     font-size: 12px;
     line-height: 1.6;
-    color: #6c6c6c;
+    color: #3c3c3c;
     margin-bottom: 1.3em;
   }
   small {
