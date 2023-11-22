@@ -49,8 +49,15 @@ hackernews:        charlesrocket
 # Gems
 plugins:
   - jekyll-content-security-policy-generator
-  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-mentions
+
+safe: true
+whitelist:
+  - jekyll-content-security-policy-generator
+  - jekyll-sitemap
+  - jekyll-feed
   - jekyll-mentions
 
 jekyll-mentions:

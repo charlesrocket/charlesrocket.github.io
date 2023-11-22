@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+gem 'jekyll'
+
 group :jekyll_plugins do
   gem 'jekyll-content-security-policy-generator'
-  gem 'jekyll-sitemap'
-  gem 'jekyll-feed'
-  gem "jekyll-mentions"
 end
 
-gem 'jekyll'
-gem "html-proofer"
+gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jekyll-mentions'
+
+gem 'html-proofer'
