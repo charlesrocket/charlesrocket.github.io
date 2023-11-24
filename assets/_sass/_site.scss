@@ -296,7 +296,7 @@ canvas {
   position: absolute;
   bottom: 50px;
   left: 50px;
-  color: rgba($white, 0.6);
+  color: $white;
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   em {
@@ -425,12 +425,15 @@ canvas {
     left: auto;
     bottom: auto;
     font-size: 80px;
+    filter: drop-shadow(0 1px 3px);
   }
   .tags > li {
     background: none;
     border: 1px solid rgba($white, 0.4);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
     color: $white;
     font-size: 12px;
+    filter: drop-shadow(0 1px 3px);
   }
   .section-line {
     color: $green;
