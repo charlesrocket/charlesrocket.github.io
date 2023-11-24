@@ -6,7 +6,7 @@
   <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
   <link rel="manifest" href="/manifest.json">
   {% if page.title %}
-  <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &#8211; {{ site.title }}</title>
+  <title>{{ page.title | markdownify | strip_html | strip_newlines | escape_once }} &bull; {{ site.title }}</title>
   {% else %}
   <title>{{ site.title }}</title>
   {% endif %}
