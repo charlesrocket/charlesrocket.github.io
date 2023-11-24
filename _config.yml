@@ -1,10 +1,12 @@
-title: -k
-description: x
+title: charlesrocket
+description: homepage
 url: https://charlesrocket.github.io
 logo: fireball.gif
 locale: en_US
 giscus_repo_id: MDEwOlJlcG9zaXRvcnkxNDE1MDQ2MzE=
 
+home_title: -k
+home_subtitle: x
 background:
   homepage: assets/images/c1tyh4ll.png                      
   post-list: assets/images/bk-prk.jpg
