@@ -358,7 +358,7 @@ canvas {
     display: block;
   }
   a:not(.btn):not(.pagination_pager) {
-    color: $green;
+    color: $shamrock-green;
     border-bottom: 1px dotted $green;
   }
   ul,
@@ -682,7 +682,11 @@ canvas {
     }
     small {
       color: lighten($black, 40);
-    } 
+    }
+    a:not(.btn):not(.pagination_pager) {
+      color: $green;
+      border-bottom: 1px dotted $shamrock-green;
+    }
   }
   .posts-link {
     color: $white;
