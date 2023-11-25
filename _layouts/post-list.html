@@ -16,7 +16,7 @@ layout: compress
     </div>
 
     <div class="block-right">
-      <a href="posts.html" title="posts" class="posts-menu-icon"></a>
+      <a href="posts.html" title="posts" class="posts-link">posts</a>
       <div class="content">
         <ul class="posts-list">
         {% for post in site.posts %}
@@ -28,7 +28,7 @@ layout: compress
               <span class="date">{{ post.date | date: '%d %b %Y' }}</span>
             </h2>
             <p>{{ post.excerpt | strip_html | truncatewords:10 }}</p>
-            <ul class="tags">
+            <ul class="tags title-tags">
             {% for tag in post.tags %}
               <li><a href="{{ site.url }}/tags#{{ tag }}">{{ tag }}</a></li>
               {% unless forloop.last %}

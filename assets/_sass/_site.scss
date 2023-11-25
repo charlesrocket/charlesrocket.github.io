@@ -47,52 +47,15 @@ canvas {
   z-index: 0;
 }
 
-.posts-menu-icon {
-  position: absolute;
+.posts-link {
   top: 30px;
   right: 30px;
-  width: 20px;
-  height: 25px;
-  border: 2px solid $gray;
-  background: $white;
-  &:before {
-    content: '';
-    width: 20px;
-    height: 25px;
-    position: absolute;
-    right: 2px;
-    border: 2px solid $gray;
-    top: 2px;
-    background: $white;
-  }
-  &:after {
-    content: '';
-    width: 20px;
-    height: 25px;
-    border: 2px solid $gray;
-    position: absolute;
-    right: 6px;
-    top: 6px;
-    background: $white;
-  }
-  &:hover {
-    border-color: $green;
-    &:before,
-    &:after {
-      border-color: $green;
-    }
-  }
-}
-
-.posts-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  border-top: 1px dotted $green;
+  padding-top: 3px;
+  color: $black;
   position: absolute;
-  top: 73px;
-  font-size: 8px;
-  color: darken($gray, 40);
-}
-
-.posts-link {
-  right: 30px;
 }
 
 .overlay {
@@ -325,7 +288,7 @@ canvas {
       color: darken($white, 40);
     }
     .date {
-      color: #399f62;
+      color: $green;
       float: right;
       display: inline-block;
       font-size: 14px;
@@ -395,7 +358,7 @@ canvas {
     display: block;
   }
   a:not(.btn):not(.pagination_pager) {
-    color: #399f62;
+    color: $green;
     border-bottom: 1px dotted $green;
   }
   ul,
@@ -526,7 +489,6 @@ canvas {
   margin-bottom: 50px;
 }
 
-// Media queries
 @media screen and (max-height: 605px) {
   .post-title-section .section-title {
     font-size: 45px;
@@ -602,12 +564,11 @@ canvas {
   }
 }
 
-// entry meta used in tags and categories page
 .entry-meta {
   font-size: .75rem;
   text-transform: uppercase;
   padding-left: 0;
-  display: none; // hide header meta on small screens
+  display: none;
   @media screen and (min-width: $small) {
     display: block;
   }
@@ -682,6 +643,96 @@ canvas {
       &:hover {
         background-color: darken($white, 3%);
         color:darken($white, 15%) !important;
+      }
+    }
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: $black;
+    color: $overlay-color-dark;
+  }
+  .btn {
+    background-color: lighten($black, 7%);
+    color: darken($white, 20%);
+  }
+  a.btn {
+    color: darken($white, 30%);
+  }
+  .block-right {
+    a {
+      color: $overlay-color-dark;
+    }
+  }
+  .inner-post {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: rgba($overlay-color-dark, 0.7);
+    }
+    p {
+      color: #c3c3c3;
+    }
+    small {
+      color: lighten($black, 40);
+    } 
+  }
+  .posts-link {
+    color: $white;
+  }
+  .posts-list {
+    border-bottom: 1px solid lighten($black, 8.2353);
+    p {
+      color: lighten($black, 40);
+    }
+    .tags li > a {
+      color: darken($white, 28%);
+    }
+  }
+  .tags:is(.title-tags) > li {
+    background: lighten($black, 65%);
+    color: darken($white, 88%);
+    > a {
+      color: $black;
+    }
+  } 
+  p > code,
+  a > code,
+  li > code,
+  figcaption > code,
+  td > code {
+    background-color: lighten($black, 15%);
+  }
+  .entry-meta {
+    a {
+      color: darken($white, 45);
+    }
+    .tag,
+    .category {
+      background-color: lighten($black, 3%);
+    } 
+    .count {
+      background-color: lighten($black, 8%);
+    }
+    &:hover {
+      background-color: lighten($black, 8%);
+    }
+  }
+  .pagination {
+    &_pager {
+      background-color: lighten($black, 25%);
+      color: lighten($black, 55%) !important;
+      &.disabled {
+        background-color: lighten($black, 13%);
+        color:lighten($black, 25%) !important;
+        &:hover {
+          background-color: lighten($black, 23%);
+          color:lighten($black, 35%) !important;
+        }
       }
     }
   }
