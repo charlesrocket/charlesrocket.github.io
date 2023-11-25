@@ -52,10 +52,16 @@ canvas {
   right: 30px;
   font-size: 14px;
   text-transform: uppercase;
-  border-top: 1px dotted $green;
-  padding-top: 3px;
+  border-top: 3px $green;
+  border-style: dashed;
+  padding: 3px;
   color: $black;
   position: absolute;
+  transition: border-style 0.3s ease-out;
+}
+
+.posts-link:hover {
+  border-style: solid;
 }
 
 .overlay {
