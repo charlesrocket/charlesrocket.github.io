@@ -459,7 +459,7 @@ canvas {
 .date-highlight {
   text-align: center;
   margin: 50px 0;
-  color: darken($white, 40);
+  color: $overlay-color;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -474,7 +474,7 @@ canvas {
     -ms-flex: 1;
     flex: 1;
     height: 2px;
-    background: #eaeaea;
+    background: darken($white, 30);
     margin-right: 10px;
   }
   &:after {
@@ -485,7 +485,7 @@ canvas {
     -ms-flex: 1;
     flex: 1;
     height: 2px;
-    background: #eaeaea;
+    background: darken($white, 30);
     margin-left: 10px;
   }
 }
@@ -717,7 +717,16 @@ canvas {
     > a {
       color: $black;
     }
-  } 
+  }
+  .date-highlight {
+    color: $overlay-color-dark;
+    &:before {
+      background: lighten($black, 30);
+    }
+    &:after {
+      background: lighten($black, 30);
+    } 
+  }
   p > code,
   a > code,
   li > code,
