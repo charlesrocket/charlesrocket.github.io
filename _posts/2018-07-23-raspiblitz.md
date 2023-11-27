@@ -5,6 +5,7 @@ image: assets/images/rpi-mbp.gif
 categories:
   - hardware
 tags:
+  - blockchain
   - rpi
   - btc
   - p2p
