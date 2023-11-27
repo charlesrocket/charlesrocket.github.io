@@ -660,9 +660,6 @@ canvas {
     background-color: $dark-blue;
     color: $overlay-color-dark;
   }
-  img {
-    border-color: $overlay-color-dark;
-  } 
   .btn {
     background-color: lighten($black, 7%);
     color: darken($white, 20%);
