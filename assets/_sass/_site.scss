@@ -593,7 +593,7 @@ canvas {
   .category {
     display: inline-block;
     background-color: darken($white, 3%);
-    border-radius: 2px;
+    border-radius: 0;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
     margin: 2px 5px;
@@ -638,10 +638,10 @@ canvas {
     -ms-user-select: none;
     user-select: none;
     &:first-child {
-      border-radius: 4px 0 0 4px;
+      border-radius: 0;
     }
     &:last-child {
-      border-radius: 0 4px 4px 0;
+      border-radius: 0;
     }
     &:hover {
       background-color: $green;

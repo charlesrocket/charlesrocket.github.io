@@ -296,7 +296,7 @@ figcaption > code,
 td > code {
   padding: 0.1rem 0.2rem;
   font-size: 0.9em;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: darken($white, 15%);
   font-family: $base-font;
 }
