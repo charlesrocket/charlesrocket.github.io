@@ -677,7 +677,7 @@ canvas {
   }
   .about-info {
     p {
-      color: #c3c3c3;
+      color: $overlay-color-dark;
     }
   } 
   .inner-post {
@@ -690,7 +690,7 @@ canvas {
       color: rgba($overlay-color-dark, 0.7);
     }
     p {
-      color: #c3c3c3;
+      color: $overlay-color-dark;
     }
     small {
       color: lighten($black, 40);
