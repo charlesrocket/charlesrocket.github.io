@@ -47,7 +47,7 @@ canvas {
   z-index: 0;
 }
 
-.posts-link {
+.dashed-top-link {
   top: 30px;
   right: 30px;
   font-size: 14px;
@@ -60,7 +60,7 @@ canvas {
   transition: border-style 0.3s ease-out;
 }
 
-.posts-link:hover {
+.dashed-top-link:hover {
   border-style: solid;
 }
 
@@ -700,7 +700,7 @@ canvas {
       border-bottom: 1px dotted $shamrock-green;
     }
   }
-  .posts-link {
+  .dashed-top-link {
     color: $white;
   }
   .posts-list {
