@@ -755,8 +755,8 @@ canvas {
       background-color: lighten($black, 25%);
       color: lighten($black, 55%) !important;
       &.disabled {
-        background-color: lighten($black, 13%);
-        color:lighten($black, 25%) !important;
+        background-color: lighten($black, 17%);
+        color:lighten($black, 30%) !important;
         &:hover {
           background-color: lighten($black, 23%);
           color:lighten($black, 35%) !important;
