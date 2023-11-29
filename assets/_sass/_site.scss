@@ -47,6 +47,25 @@ canvas {
   z-index: 0;
 }
 
+.frame-p {
+  width: auto;
+  height: auto;
+  margin: 20px auto;
+  position: relative;
+  display: table;
+  box-shadow: -2px 0 0 0 $overlay-color,
+               2px 0 0 0 $overlay-color,
+               0 -2px 0 0 $overlay-color,
+               0 2px 0 0 $overlay-color;
+}
+
+.frame-p p {
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center;
+  padding: 20px;
+}
+
 .dashed-top-link {
   top: 30px;
   right: 30px;
@@ -226,8 +245,8 @@ canvas {
     }
   }
   p {
-    color: darken($white, 60);
-    font-size: 16px;
+    color: $overlay-color;
+    font-size: 12px;
     margin: 10px 0;
     padding-top: 0;
     line-height: 24px;
@@ -663,6 +682,12 @@ canvas {
     background-color: $dark-blue;
     color: $overlay-color-dark;
   }
+  .frame-p {
+    box-shadow: -2px 0 0 0 darken($white, 28%),
+                 2px 0 0 0 darken($white, 28%),
+                 0 -2px 0 0 darken($white, 28%),
+                 0 2px 0 0 darken($white, 28%);
+}
   .btn {
     background-color: lighten($black, 7%);
     color: darken($white, 20%);
